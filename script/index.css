@@ -2,4 +2,105 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    background-color: transparent;
+
+}
+
+.page{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 1px;
+}
+.line-1{
+    color: rgb(15, 6, 15);
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.designe:hover{
+   color: grey;
+   box-shadow: 1px 1px 20px;
+}
+.mani{
+  font-size: 20px;
+}
+.social a i{
+  font-size: 12px;
+  margin: 12px;
+ 
+}
+.fa-linkedin-in{
+  color: #2674b1;
+  font-size: 23px;
+  cursor: pointer;
+}
+.fa-facebook{
+  color: #1877f2;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.favs a i{
+  color: #1877f2;
+  font-size: 22px;
+  margin: 1px 10px;
+  cursor: pointer;
+}
+.favs p{
+  font-size: 20px;
+}
+.card img{
+  height: 320px;
+}
+
+.hmmm img{
+  border-radius: 50%;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+ 
+}
+
+.house{
+  border: 0px white solid!important;
+
+}
+.foot{
+  padding: 20px;
+}
+.foot .favs a{
+
+  position: relative;
+  align-content: center;
+
+}
+.footer .card{
+  width: 99%; 
+  padding: 10px;
+   margin-top: 30px;
+   border: white 1px dotted;
 }
