@@ -10,7 +10,7 @@ fetch('https://swapi.dev/api/people')
 .then(data => {
 
    console.log(data)
-    let apiresult = data['results']
+    let apiresult = data.results
     for(let i=0; i < apiresult.length; i++){
         console.log(apiresult[i])
         elementRow.innerHTML += 
